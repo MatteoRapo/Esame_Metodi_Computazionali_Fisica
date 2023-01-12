@@ -58,7 +58,7 @@ def numero_onda(ni,dispersione='onde_profonde',c=1,b=1):
     elif dispersione=='cubica':
         kk=(omega**2/c)**(1/3)
         return kk
-    elif dispersione=='Klein-Gordon':
+    elif dispersione=='klein-gordon':
         kk=(omega**2-b)/c
         return kk
     elif dispersione=='quantistica':
